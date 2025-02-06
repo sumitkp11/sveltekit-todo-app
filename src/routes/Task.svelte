@@ -5,7 +5,6 @@
         const task = document.getElementById("taskInput").value;
         if (task.length > 0) {
             const taskBody = {
-                id: crypto.randomUUID(),
                 title: task,
             };
 
