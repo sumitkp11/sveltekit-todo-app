@@ -1,2 +1,9 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
+<script>
+    let name = "Sumit";
+    import Task from "./Task.svelte";
+</script>
+
+<div class="bg-orange-500 h-auto">
+    <h2 class="font-bold text-white p-4 text-2xl">SvelteKit Todo App</h2>
+</div>
+<Task />
